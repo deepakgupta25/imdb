@@ -1,0 +1,38 @@
+.App {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.movie-listing-wrapper {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 20px 50px;
+}
+
+.sort-holder {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.sorting-dd {
+  outline: none;
+  width: 175px;
+  height: 25px;
+  float: right;
+}
+
+.no-record {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

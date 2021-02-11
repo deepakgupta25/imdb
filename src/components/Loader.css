@@ -1,0 +1,28 @@
+.loader-holder {
+  width: 100%;
+  position: relative;
+  height: calc(100vh - 85px);
+}
+.spinner {
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.loader {
+  width: 120px;
+  height: 8px;
+  background: url("./img/loader.gif")no-repeat;
+  background-size: 180%;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}

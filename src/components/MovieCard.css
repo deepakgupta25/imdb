@@ -1,0 +1,35 @@
+.movie-card {
+  background: #F0F0F0;
+  width: 250px;
+  height: 380px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  color: #fff;
+}
+.upper-half {
+  width: auto;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-image: url('./img/movie.jpg');
+  background-repeat: round;
+  background-size: contain;
+}
+.lower-half {
+  width: auto;
+  height: 35%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  background-color: #383838;
+  display: block;
+  font-size: 14px;
+}
+
+.imdb-rating {
+  color: orange;
+}

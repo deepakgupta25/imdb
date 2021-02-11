@@ -1,0 +1,9 @@
+.error-container {
+  font-size: 24px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  height: calc(100vh - 8px);
+}
